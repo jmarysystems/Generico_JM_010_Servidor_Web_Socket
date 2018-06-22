@@ -1,0 +1,25 @@
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: blue;
+        color: white;        
+    }
+    .fonte_body{ font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-align: left; }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 900px) {
+    body {
+        background-color: olive;
+        color: white; 
+    }
+    .fonte_body{ font-family: Arial, Helvetica, sans-serif; font-size: 40px; text-align: left; }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #CCFF00;
+        color: white; 
+    }
+    .fonte_body{ font-family: Arial, Helvetica, sans-serif; font-size: 60px; text-align: left; }
+}
